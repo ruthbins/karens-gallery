@@ -36,9 +36,8 @@ if (galleryImages) {
         newNextBtn.style.cssText = "right: " + calcImgToEdge + "px;";
 
         let newPrevBtn = document.createElement("a");
-        let btnPrevText = document.createTextNode(
-          "Prev                                     "
-        );
+        let btnPrevText = document.createTextNode("Prev");
+
         newPrevBtn.appendChild(btnPrevText);
         container.appendChild(newPrevBtn);
         newPrevBtn.setAttribute("class", "img-btn-prev");
