@@ -82,3 +82,17 @@ h5 {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 400px) {
+  #head {
+    width: 75px;
+    height: 25px;
+    margin-bottom: 250px;
+    padding-bottom: 50px;
+  }
+
+  .wrapper-gallery {
+    margin-top: 150px;
+    padding-top: 20px;
+  }
+}
