@@ -4,6 +4,19 @@
 }
 body {
   background-color: #e2f0e2;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+header {
+  width: 100%;
+  height: 100px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Wrappers */
