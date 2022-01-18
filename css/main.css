@@ -4,13 +4,17 @@
 }
 body {
   background-color: #e2f0e2;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
+  font-family: "Josefin", "roboto", "Sans", sans-serif;
   font-weight: 600;
 }
 header {
   width: 100%;
   height: 100px;
+}
+
+#head {
+  width: 70%;
+  margin: auto;
 }
 
 .text {
@@ -30,19 +34,21 @@ header {
 
 /* Default text styling */
 p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Josefin", "roboto", "Sans", sans-serif;
   font-size: 18px;
   display: block;
   margin: 10px 20px;
 }
 
 h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Josefin", "roboto", "Sans", sans-serif;
   font-size: 28px;
 }
 
 h5 {
   text-align: center;
+  font-family: "Josefin", "roboto", "Sans", sans-serif;
+  font-size: 18px;
 }
 
 #header-main nav {
@@ -71,24 +77,22 @@ h5 {
 
 #header-main nav ul li a {
   color: rgb(17, 17, 17);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Josefin", "roboto", "sans-serif";
+  font-size: 18px;
   /* padding-left: 10px;*/
   text-decoration: none;
 }
 
 #header-main nav ul li a:hover {
   color: rgb(255, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Josefin", "roboto", "sans-serif";
   text-decoration: none;
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   #head {
-    width: 75px;
-    height: 25px;
-    margin-bottom: 250px;
-    padding-bottom: 50px;
+    display: none;
   }
 
   .wrapper-gallery {
